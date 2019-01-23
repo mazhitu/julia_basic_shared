@@ -3,7 +3,7 @@
 # f2-f5 tests the speed of write/read large Float64 Array
 # somewhat surprisingly, f3-f5 performs at the same speed
 
-# the ones without preallocation performs at essentially the same speed at FORTRAN
+# the ones with preallocation performs at essentially the same speed at FORTRAN
 # it is about 0.01s to read 50Mb
 
 const mx=72900
